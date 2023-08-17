@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@descope/node-sdk": "0.0.0-next-ffe40501-20230718",
+    "@descope/react-sdk": "0.0.0-next-ff7ef905-20230814",
+    "@emotion/react": "^11.11.1",
+    "@mantine/core": "^6.0.18",
+    "@mantine/hooks": "^6.0.18",
+    "@mantine/next": "^6.0.19",
+    "@mantine/nprogress": "^6.0.18",
+    "@types/node": "20.4.9",
+    "@types/react": "18.2.19",
+    "@types/react-dom": "18.2.7",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "next": "^13.4.13",
+    "next-auth": "^4.23.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.2.1",
+    "typescript": "5.1.6"
+  }
+}
